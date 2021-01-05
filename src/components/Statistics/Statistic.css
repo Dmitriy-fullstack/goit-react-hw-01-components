@@ -1,0 +1,27 @@
+/* .stat__section {
+  width: 480px;
+  height: 360px;
+  
+} */
+.stat__title {
+  text-align: center;
+}
+.stat__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stat__item {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: white;
+  padding: 5px;
+  margin-right: 5px;
+}
+.stat__item:last-child {
+  margin: 0;
+}
