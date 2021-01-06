@@ -1,0 +1,13 @@
+.table_main {
+  background-color: grey;
+  text-align: center;
+  border: 2px;
+  width: 480px;
+}
+.tadle_head {
+  background-color: brown;
+}
+.table_val {
+  border: 1px solid black;
+  padding: 5px;
+}
