@@ -1,0 +1,39 @@
+.friend__list {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.status_true {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: green;
+}
+.status_false {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  background-color: red;
+}
+.friend_item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 2px solid grey;
+  box-shadow: 3px 3px grey;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+.friend_item:last-child {
+  margin-bottom: 0;
+}
+
+.friend_ava {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.friend_name {
+  font-weight: 700;
+}
