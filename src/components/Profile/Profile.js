@@ -1,7 +1,16 @@
 import PropTypes from 'prop-types';
+import defaultImg from '../FriendList/default-img.jpg';
 import './Profile.css';
 export default function Profile(props) {
-  const { avatar, name, tag, location, followers, views, likes } = props;
+  const {
+    avatar = defaultImg,
+    name,
+    tag,
+    location,
+    followers,
+    views,
+    likes,
+  } = props;
   return (
     <div className="Profile__container">
       <div className="Profile__wrap">
