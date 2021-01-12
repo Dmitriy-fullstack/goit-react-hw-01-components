@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import defaultImg from '../FriendList/default-img.jpg';
 import './Profile.css';
+
 export default function Profile(props) {
   const {
     avatar = defaultImg,
@@ -10,13 +11,12 @@ export default function Profile(props) {
     followers,
     views,
     likes,
+    stats,
   } = props;
   return (
     <div className="Profile__container">
-      <div className="Profile__wrap">
-        <img className="Profile__img" src={avatar} alt={name} />
-      </div>
       <div>
+        <img className="Profile__img" src={avatar} alt={name} />
         <p className="Profile__name">{name}</p>
         <p className="Profile__data">{tag}</p>
         <p className="Profile__data">{location}</p>
@@ -48,4 +48,5 @@ Profile.propTypes = {
   followers: PropTypes.number,
   views: PropTypes.number,
   likes: PropTypes.number,
+  stats: PropTypes.string,
 };
